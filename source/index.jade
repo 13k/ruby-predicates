@@ -1,0 +1,40 @@
+!!!
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Are Ruby Predicates Confusing?
+
+    link(rel="stylesheet", type="text/css", href="bootstrap/bootstrap.min.css", media="screen")
+    link(rel="stylesheet", type="text/css", href="confuse.min.css", media="screen")
+
+    script(type="text/javascript", src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+    script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.0.2/bootstrap.min.js")
+    script(type="text/javascript", src="confuse.min.js")
+
+  body
+    .container
+      h1#ruby-code
+        span.class Ruby
+        span ::
+        span.class Predicates
+        span .
+        span.predicate confusing?
+
+      #hero.hero-unit
+        h1#eval-result
+
+      .clearfix
+        button#source-toggle.btn.btn-inverse(data-toggle="button") View source
+
+      #source
+        a(href="https://github.com/rails/rails/pull/5329") https://github.com/rails/rails/pull/5329
+        br
+        a(href="https://github.com/rails/rails/pull/5567") https://github.com/rails/rails/pull/5567
+        br
+        a(href="https://github.com/rails/rails/commit/3756a3fdfe8d339a53bf347487342f93fd9e1edb") https://github.com/rails/rails/commit/3756a3fdfe8d339a53bf347487342f93fd9e1edb
+        br
+        a(href="https://twitter.com/#!/tpope/status/184126125587443712") https://twitter.com/#!/tpope/status/184126125587443712
+        br
+        a(href="https://twitter.com/#!/avdi/status/183376469957943296") https://twitter.com/#!/avdi/status/183376469957943296
+        br
+        a(href="") 
